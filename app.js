@@ -9,7 +9,7 @@ function randomDiceNumber() {
 }
 
 function changeElement(dice, number) {
-    dice.src = `/dice${number}.png`;
+    dice.src = `dice${number}.png`;
 }
 
 function changeWinnerMessage(dice1Number, dice2Number) {
