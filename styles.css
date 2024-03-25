@@ -1,0 +1,77 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modern-button {
+  margin-top: 50px;
+  padding: 10px 20px; /* Adjust padding to control button size */
+  font-size: 16px; /* Adjust font size as needed */
+  border: 2px solid transparent; /* Stylish border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #4ECCA3; /* Background color */
+  color: #ffffff; /* Text color */
+  cursor: pointer; /* Cursor changes to pointer to indicate it's clickable */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  max-width: 200px;
+  align-self: center;
+}
+
+.modern-button:hover {
+  background-color: #ffffff; /* Background color changes on hover */
+  color: #4ECCA3; /* Text color changes on hover */
+  border-color: #4ECCA3; /* Border color to match the text on hover */
+}
+
+.modern-button:focus {
+  outline: none; /* Removes the outline to keep the style clean */
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+h2 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
